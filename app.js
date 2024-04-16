@@ -30,7 +30,7 @@ http.createServer(function (req, res) {
 			if (err) 
 				res.write("TAIL.HTML NOT FOUND"); 
 			else { 
-				res.writeHead(200, { 'Content-Type': 'text/html' }); 
+				// res.writeHead(200, { 'Content-Type': 'text/html' }); 
 				res.write(pgres); 
 				res.end(); 
 			} 
